@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <link rel="stylesheet" href="output.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <title>Document</title>
+</head>
+
+<body class="font-mon bg-black">
+    <div class="grid sm:grid-cols-11  sm:grid-rows-12 gap-4 p-4  grid-cols-6">
+        <div id="first" class="  min-h-[100px] rounded-xl bg-slate-500 shadow sm:row-span-7 sm:sticky top-0 sm:col-span-1 text-center col-span-6">
+          <span class="flex relative justify-end-safe top-8 right-5 bottom-0"> <i class="ri-menu-3-line sm:hidden inline-block text-4xl text-white"></i></span> 
+            <h1 class=" flex justify-center items-center sm:text-3xl text-3xl  font-semibold sm:mx-2 sm:pt-6 text-white">Nine</h1>
+            <div class="sm:flex flex-col text-3xl sm:block hidden gap-15 mt-30 text-center text-white ">
+                <div class="sm:flex flex-col text-3xl sm:block hidden gap-16 mt-11 text-center text-white"> 
+                    <i class="ri-layout-grid-fill  inline-block hover:text-slate-900 hover:scale-110 cursor-pointer transition-transform duration-150"></i>
+                    <i class="ri-home-line  inline-block hover:text-slate-900 hover:scale-110 cursor-pointer transition-transform duration-150"></i>
+                    <i class="ri-store-3-line inline-block hover:text-slate-900 hover:scale-110 cursor-pointer transition-transform duration-150"></i>
+                    <i class="ri-map-pin-line  inline-block hover:text-slate-900 hover:scale-110 cursor-pointer transition-transform duration-150"></i></div>
+                <span class=" bg-white bottom-0 text-black mt-10 rotate-270 pt-2 pb-3 rounded-r-3xl font-bold"> classic</span></div></div>
+<!-- Overlay: Hidden by default -->
+<div id="overlay" class="hidden fixed top-0 right-[-30%] w-4/7 h-full z-50 bg-amber-400 p-4 sm:hidden flex flex-col gap-0">
+    <i id="closeOverlay" class="ri-close-large-fill text-4xl cursor-pointer"></i>
+    <div id="links" class="sm:hidden flex flex-col mt-20 gap-20 items-center mr-2">
+        <i class="ri-layout-grid-fill text-3xl  "></i>
+        <i class="ri-home-line text-3xl"></i>
+        <i class="ri-store-3-line text-3xl"></i>
+        <i class="ri-map-pin-line text-3xl"></i></div></div>
+     <!-- 2nd -->
+        <div id="second" class="sm:min-h-[100px] min-h-[600px] rounded-xl shadow  sm:col-span-8 sm:row-span-4 bg-[url('images/One.jpeg')] bg-cover bg-no-repeat flex items-end cursor-pointer col-span-4 row-span-5">
+        <div class=" ml-8 mb-6">
+            <h1 class=" text-white sm:text-9xl text-4xl font-semibold">Chelsea 8</h1> 
+            <p class="text-white sm:ml-2">Chestnut Burnished Calf</p></div></div> 
+       <!-- 3rd -->
+        <div id="third" class=" min-h-[100px] rounded-xl cursor-pointer shadow sm:col-span-2 sm:row-span-4 bg-[url('images/One.jpeg')] bg-cover bg-bottom flex items-end col-span-2 row-span-4">
+        <p class="ml-3 mb-3 text-red-600 p-2 bg-white font-bold" >New !</p></div>
+        <!-- 4rth -->
+        <div id="four" class=" min-h-[100px] cursor-pointer rounded-xl bg-amber-600 shadow sm:col-span-5 sm:row-span-3 bg-[url(images/Three.jpeg)] bg-cover bg-no-repeat flex items-end text-white col-span-2">
+        <div class="sm:m-8 mb-4 ">
+            <h1 class="sm:text-6xl font-semibold">Crockett & Jones</h1>
+           <p>Tan Burnished Calf</p></div></div>
+        <!-- 5th -->
+        <div id="five" class="min-h-[100px] rounded-xl bg-blue-400 shadow sm:col-span-3 cursor-pointer sm:row-span-3 bg-[url('images/Four.jpeg')] bg-cover bg-no-repeat bg-bottom  flex items-end text-white col-span-3 row-span-3">
+        <div class="ml-3 mb-6">
+            <h1 class="sm:text-5xl font-semibold">Invest In The Classic</h1>
+            <p>Comfortable Path To Style</p></div></div>
+      <div id="six" class=" sm:min-h-[100px] rounded-xl bg-red-900 shadow cursor-pointer sm:col-span-2 sm:row-span-3 bg-[url('images/Five.jpeg')] bg-cover bg-no-repeat  bg-bottom flex items-end col-span-3 row-span-3 min-h-[200px]">
+        <p class="ml-3 mb-3 text-red-600 p-2 bg-white font-bold" >New !</p></div>
+        <!-- invisble -->
+        <div class="min-h-[100px] rounded-xl bg-blue-400 shadow cursor-pointer invisible min-h-[100px]" ></div></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js" ></script>
+</body>
+</html>

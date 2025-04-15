@@ -1,0 +1,18 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm rebuild",
+    "build":"npx tailwindcss -i ./input.css -o ./output.css --watch"   
+
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.3",
+    "tailwindcss": "^4.1.3"
+  }
+}
