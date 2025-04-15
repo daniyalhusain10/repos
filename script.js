@@ -23,7 +23,7 @@ let tle = gsap.timeline();
 tle.from("#first",{
     opacity: 0,
     duration:1,
-    x:-50,
+    x:-100,
     
 })
 tle.from("#second",{
@@ -33,12 +33,12 @@ tle.from("#second",{
 })
 tle.from("#second h1",{
     opacity:0,
-    y:-40,
+    y:-100,
     duration:0.8,
 })
 tle.from("#second p",{
     opacity:0,
-    y:-40,
+    y:-0,
     duration:0.8,
 })
 tle.from("#third",{
@@ -46,49 +46,24 @@ tle.from("#third",{
     y:-40,
     duration:0.8,
 })
-tle.from("#third p",{
-    opacity:0,
-    y:-40,
-    duration:0.4,
-})
+
 tle.from("#four",{
     opacity:0,
-    y:-40,
+    y:40,
     duration:0.4,
 })
-tle.from("#four h1",{
-    opacity:0,
-    y:-40,
-    duration:0.4,
-})
-tle.from("#four p",{
-    opacity:0,
-    y:-40,
-    duration:0.4,
-})
+
 tle.from("#five",{
     opacity:0,
     y:-40,
     duration:0.4,
 })
-tle.from("#five h1",{
-    opacity:0,
-    y:-40,
-    duration:0.4,
-})
-tle.from("#five p",{
-    opacity:0,
-    y:-40,
-    duration:0.4,
-})
+
+
 tle.from("#six",{
     opacity:0,
-    y:-40,
+    y:40,
     duration:0.4,
 })
-tle.from("#six p",{
-    opacity:0,
-    y:-40,
-    duration:0.4,
-})
+
 
